@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCreateTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="CREATE REQ...UEST"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id= "@+id/LinL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/advent_pro"
+        android:textSize ="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Fill out the requirements:" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp" />
+
+    <LinearLayout
+        android:id= "@+id/LinL3"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
+            android:text="Cancel"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFF"
+            android:fontFamily="@font/advent_pro"
+            android:layout_marginLeft="10sp"
+            android:text="CREATE"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Request Status Change"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="RequestID:"
+        android:textSize ="18sp"/>
+
+    <TextView
+        android:id="@+id/etRequestID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text=""
+        android:textSize ="24sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Current Request Status:"
+        android:textSize ="18sp"/>
+
+    <TextView
+        android:id="@+id/etRequestStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text=""
+        android:textSize ="24sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:id= "@+id/LinL3"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btnPending"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFF"
+            android:fontFamily="@font/advent_pro"
+            
+            android:text="pending"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnDenied"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFF"
+            android:fontFamily="@font/advent_pro"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:text="denied"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnApproved"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFF"
+            android:fontFamily="@font/advent_pro"
+
+            android:text="approved"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:text="Cancel"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

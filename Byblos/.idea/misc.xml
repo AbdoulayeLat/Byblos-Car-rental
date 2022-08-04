@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/drawable/border_bottom_blue.xml" value="0.3828125" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_administrator.xml" value="0.26403985507246375" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_employee.xml" value="0.20520833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_employee_branchlist.xml" value="0.20520833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_register.xml" value="0.19791666666666666" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_user.xml" value="0.20520833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/branch_add_service.xml" value="0.2677083333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/branch_requests.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/change_status.xml" value="0.33" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_branch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_request.xml" value="0.35260416666666666" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_request_requirements.xml" value="0.2536231884057971" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_service.xml" value="0.33" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_user.xml" value="0.20520833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/edit_branch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_branch_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_request_list.xml" value="0.2708333333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_requests_employee_side.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_service_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_user_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/rate_branches.xml" value="0.14270833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/ratings_list.xml" value="0.14270833333333333" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/request_requirement_list.xml" value="0.2536231884057971" />
+        <entry key="..\:/Personal files/University/2021_6_Fall/SEG2105/projects/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/update_delete_services.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Utilisateur/Desktop/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_employee.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Utilisateur/Desktop/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_register.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_administrator.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_employee.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/activity_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_branch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_request.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_request_requirements.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_service.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/create_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/edit_branch.xml" value="0.28125" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_branch_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_rating_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_service_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/layout_user_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/rate_branches.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/ratings_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/update_delete_services.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexg/ALEX - School/SEG 2105/seg2105f21-project-project_gr2/Byblos/app/src/main/res/layout/update_delete_users.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_administrator.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_employee.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/create_branch.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/create_service.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/create_user.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/edit_branch.xml" value="0.3257896345074395" />
+        <entry key="app/src/main/res/layout/layout_branch_list.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/layout_service_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_user_list.xml" value="0.13728470111448834" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

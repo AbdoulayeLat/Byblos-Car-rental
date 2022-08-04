@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:id="@+id/LinL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background ="#00FFFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            app:srcCompat="@drawable/byblos_logo_b" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegisterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/antic_slab"
+        android:textColor="#00FFFF"
+        android:text="Create New Account"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etBranchName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="40sp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        android:hint="Enter your first name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etBranchAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        android:hint="Enter your last name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etBranchEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        android:hint="Enter your email adress"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etPasswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etRePasswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        android:hint="Enter your password again"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spnUserType"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:background = "#A8A8A8"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id= "@+id/LinL3"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:fontFamily="@font/bookman_old_italic"
+            android:text="Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="15sp"
+            android:fontFamily="@font/bookman_old_italic"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

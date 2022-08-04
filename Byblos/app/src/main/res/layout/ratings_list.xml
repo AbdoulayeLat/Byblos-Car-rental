@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            app:srcCompat="@drawable/byblos_logo_b" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/out"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="5sp"
+            app:srcCompat="@drawable/button_logout" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bookman_old_italic"
+        android:gravity="center"
+        android:text="Our Ratings"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+
+    <ListView
+        android:id="@+id/comments"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

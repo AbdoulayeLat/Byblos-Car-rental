@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCreateTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="PROCESS REQ...UEST"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Request ID:" />
+
+    <TextView
+        android:id="@+id/etRequestID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"
+        android:textSize = "24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="User ID:" />
+
+    <TextView
+        android:id="@+id/etUserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"
+        android:textSize = "24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="Branch Name:" />
+
+    <TextView
+        android:id="@+id/etBranchName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"
+        android:textSize = "24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="Service Requested:" />
+
+    <TextView
+        android:id="@+id/etServiceRequested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom = "20sp"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"
+        android:textSize = "24sp"
+        />
+
+    <TextView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="294dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/bookman_old_italic"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"
+        android:text="Service Requested:" />
+
+    <LinearLayout
+        android:id= "@+id/LinL3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/etRequestStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A8A8A8"
+            android:fontFamily="@font/advent_pro"
+            android:textStyle="bold"
+            android:textSize = "24sp"
+            />
+
+        <Button
+            android:id="@+id/btnUpdateStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="2"
+            android:backgroundTint="#00FFFF"
+            android:fontFamily="@font/advent_pro"
+            android:text="Update Status"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:fontFamily="@font/advent_pro"
+        android:text="Close"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A932BC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="User Info Page"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro"/>
+
+    <EditText
+        android:id="@+id/editUserFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new user first name"
+        android:layout_below = "@id/title" />
+
+    <EditText
+        android:id="@+id/editUserLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editServiceName"
+        android:hint="Enter new user last name" />
+
+    <EditText
+        android:id="@+id/editUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editServiceName"
+        android:hint="Enter new user email" />
+
+    <EditText
+        android:id="@+id/editUserpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editServiceName"
+        android:hint="Enter new user password" />
+
+    <EditText
+        android:id="@+id/editUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editServiceName"
+        android:hint="Enter new user type" />
+
+
+
+    <Button
+        android:id="@+id/buttonUpdateService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Update"
+        android:backgroundTint="#00FFFF"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonDeleteService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Delete"
+        android:backgroundTint="#00FFFF"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

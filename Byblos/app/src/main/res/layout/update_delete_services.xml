@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Service Info Page"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/advent_pro"/>
+
+    <EditText
+        android:id="@+id/editServiceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new service name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:layout_below = "@id/title" />
+
+    <EditText
+        android:id="@+id/editServiceRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:layout_below="@id/editServiceName"
+        android:hint="Enter new service rate" />
+
+    <EditText
+        android:id="@+id/editServiceRequirements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A8A8A8"
+        android:layout_below = "@id/title" />
+
+
+
+    <Button
+        android:id="@+id/buttonUpdateService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Update"
+        android:backgroundTint="#00FFFF"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonDeleteService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Delete"
+        android:backgroundTint="#00FFFF"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
